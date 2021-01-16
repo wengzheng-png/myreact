@@ -1,0 +1,52 @@
+.box {
+    width: 100%;
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.case {
+    width: 186px;
+    height: 300px;
+}
+.img {
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.hpic {
+    display: inline-block;
+    background-image: url('../img/pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.txt {
+    display: block;
+    width: 180px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    white-space: nowrap;	 
+	overflow: hidden;		  
+	text-overflow: ellipsis;
+}
+
+.username {
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+
+i {
+    position: relative;
+    top: -30px;
+    left: 10px;
+}

@@ -1,5 +1,5 @@
-import './css/App.css';
-import RjRouter from './rjrouter/rjrouter'
+import '../css/App.css';
+import RjRouter from '../router/router';
 
 function App() {
   return (
