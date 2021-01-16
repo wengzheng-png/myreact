@@ -5,8 +5,11 @@ const Controller = require('egg').Controller;
 class HomeControllerwz extends Controller {
   async login() {
     const { ctx } = this;
-
     this.ctx.body = await this.ctx.service.wzhome.login(this.ctx.request.body);
+  }
+  async register() {
+    const { ctx } = this;
+    this.ctx.body = await this.ctx.service.wzhome.register(this.ctx.request.body);
   }
 }
 

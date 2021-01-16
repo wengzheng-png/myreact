@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.user {
+    width: 100%;
+    border-bottom: 0.2rem solid rgb(149, 142, 243) ;
+    margin: 0.5rem;
+}
+.user img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.user span {
+    display: inline-block;
+    font-size: 0.8rem;
+    position: relative;
+    top: -0.5rem;
+    margin-left: 0.8rem;
+}
+
+.user .right {
+    position: relative;
+    right: -11rem;
+}
+
+.goods {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: 0.1rem solid rgba(49, 48, 48,.5);
+}
+.photobox {
+    
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 0.2rem solid rgba(13, 12, 15,.3);
+}
+.goods img {
+    width: 100%;
+    /* height: 150%; */
+    
+}
+
+.goods img:hover {
+    transform: scale(1.3);
+    transition: all 3s;
+}
+
+.text01 {
+    margin: 0.5rem 1rem;
+    color: rgb(58, 34, 163);
+}
+.text02 {
+    margin: 1rem;
+    color: rgb(6, 3, 22);
+    text-indent: 2em;
+}
+
+/* 用户评论 */
+.comments1 {
+    font-size: 0.5em;
+    border-bottom: 0.1rem solid #ccc;
+}
+.comments1 img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.comments1 span {
+    color: rgb(58, 34, 163);
+    position: relative;
+    top: -1.5rem;
+}
+.comments1 p {
+    position: relative;
+    margin-left: 3rem;
+    top: -1.5rem;
+}
+.fengge {
+    width: 100%;
+    height: 2rem;
+}
+/* 评论输入框 */
+.comments {
+    overflow: hidden;
+    width: 100%;
+    height: 2rem;
+    border: 0.1rem solid #ccc;
+    position: fixed;
+    bottom: 0.2rem;
+    background-color: #fff;
+}
+.userinput {
+    width: 40%;
+    height: 2rem;
+    outline: none;
+    border: none;
+    padding-left: 0.4rem;
+    margin-left: 1rem;
+}
+.btn {
+    width: 15%;
+    height: 2rem;
+    outline: none;
+    border: none;
+}
+.comments span {
+    display: inline-block;
+    font-size: 0.5rem;
+    color: #ff6700;
+    margin-left: 3rem;
+}
+
