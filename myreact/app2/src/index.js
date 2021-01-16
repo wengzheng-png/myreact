@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './js/reportWebVitals';
+import Appwz from './router/wzindex.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+       <Appwz></Appwz>
   </React.StrictMode>,
   document.getElementById('root')
 );

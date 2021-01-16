@@ -9,7 +9,7 @@ module.exports = app => {
 
   router.post('/', controller.wzhome.login);//登录接口
 
-  router.get('/home', controller.wzhome.login);
+  router.post('/register', controller.wzhome.register);//注册接口
 
   // 发现页面
   router.get('/found', controller.wushan.found);

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigbox {
+    width: 100%;
+    /* height: 41.6875rem; */
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    /* overflow-y:hidden; */
+}
+img {
+    width: 100%;
+    height: 33.3%;
+}
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 15;
+    background-color:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: seashell;  
+}
+.inmask{
+    width: 70%;
+    height: 80%;
+    /* background-color: sienna;  */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mask  .last {
+    font-size: .75rem;
+    height: 20%;
+    width: 100%;
+    
+}
+.mid {
+    text-align: center;
+}
+.mid input {
+   opacity: 0.5;
+   padding: .3125rem 0rem;
+   margin: .3125rem 0;
+   color: silver;
+}
+.mid .btn {
+   width: 90%;
+   height: 50%;
+   /* background-color: chartreuse; */
+
+}
+.btn .inbtn {
+    width: 10.05rem;
+    height: 1.8125rem;
+    background-color: coral;
+    float: right;
+    text-align: center;
+    margin-right: .25rem;
+    line-height:1.8125rem;
+}
+
+.btn .inbtn2 {
+    width: 10.05rem;
+    height: 1.8125rem;
+    background-color: gray;
+    float: right;
+    text-align: center;
+    margin-right: .25rem;
+    line-height:1.8125rem;
+}
+
+.check{
+    font-size: .75rem;
+    color:red;
+    display: inline-block;
+}
+.checkt{
+    font-size: .75rem;
+    color:red;
+    display: none;
+}
+.check2{
+    font-size: .75rem;
+    color:green;
+}
+.check2t{
+    font-size: .75rem;
+    color:green;
+}
