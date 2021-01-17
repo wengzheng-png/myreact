@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 /**
  * @param {Egg.Application} app - egg application
@@ -17,4 +17,7 @@ module.exports = app => {
   router.get('/nail', controller.wushan.nail);
   router.get('/shoes', controller.wushan.shoes);
   router.get('/getdetail', controller.wushan.detail);
+
+  router.get('/focus', controller.yanrui.focus);//关注页面
+  router.get('/place', controller.yanrui.place);//附近页面
 };
