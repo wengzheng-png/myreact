@@ -1,0 +1,182 @@
+.topbj {
+    width: 100%;
+    height: 4.4828rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.top_box {
+    height: 0.4483rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    padding: 0.3448rem;
+}
+
+.more {
+    width: 0.3103rem;
+    height: 0.3103rem;
+}
+
+.top-right-box {
+    height: 0.4483rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addbj {
+    width: 2.3103rem;
+    height: 0.4483rem;
+    background-color: rgba(151, 151, 151, 0.527);
+    border-radius: 0.4483rem;
+    color: #ccc;
+    font-size: 0.1724rem;
+    line-height: 0.4483rem;
+    position: relative;
+}
+
+.inputbj {
+    width: 1.7241rem;
+    opacity: 0;
+    position: absolute;
+}
+
+.hand {
+    width: 0.2414rem;
+    height: 0.2069rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.share {
+    width: 0.3103rem;
+    height: 0.3103rem;
+    padding-left: 0.3448rem;
+}
+
+/* 用户信息框 */
+.middle_box {
+    width: 100%;
+    position: relative;
+    height: 2.2414rem;
+    padding: 0.6897rem 0 0.3448rem 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 0.2069rem;
+    display: flex;
+    text-align: start;
+}
+
+.top_box2 {
+    width: 1.3793rem;
+    height: 1.3793rem;
+    overflow: hidden;
+    border-radius: 1.3793rem;
+    margin-right: 0.3448rem;
+}
+
+.touxiang {
+    width: 1.3793rem;
+    height: 1.3793rem;
+}
+
+.userinfo {
+    margin-top: 0.1724rem;
+}
+
+.userinfo>li {
+    height: 0.3448rem;
+}
+
+/* 昵称 */
+.nicheng {
+    font-size: 0.2414rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sex {
+    width: 0.3448rem;
+    height: 0.3448rem;
+    margin: auto;
+}
+
+.sex_box {
+    width: 0.5172rem;
+    height: 0.6034rem;
+    border-radius: 0.3448rem;
+    text-align: center;
+    background-color: rgba(151, 151, 151, 0.527);
+}
+
+/* 第三个盒子 */
+.bottom_box {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.2069rem;
+    margin: 0.3448rem 0;
+}
+
+/* 个性签名 */
+.userInfo {
+    font-size: 0.2414rem;
+    color: #fff;
+    text-align: start;
+}
+
+.count {
+    font-size: 0.2414rem;
+}
+
+/* 编辑资料 */
+.changeInfo {
+    width: 1.7241rem;
+    height: 0.5172rem;
+    font-size: 0.2414rem;
+    line-height: 0.5172rem;
+    border-radius: 0.5172rem;
+    background-color: rgba(151, 151, 151, 0.527);
+}
+
+/* 作品切换 */
+/* .production_com {
+    position: relative;
+    width: 100%;
+     height: 40px;
+    line-height: 40px;
+    top: 260px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.801);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+} */
+
+.nav {
+    position: relative;
+    width: 100%;
+    height: 0.6897rem;
+    line-height: 0.6897rem;
+    top: 4.4828rem;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.801);
+    border-top-left-radius: 0.1379rem;
+    border-top-right-radius: 0.1379rem;
+}
+
+.route_switch {
+    width: 2.2414rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.2414rem;
+    color: #ccc;
+}
